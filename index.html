@@ -3,15 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>隨緣堂｜八字命理・紫微斗數・陽宅風水・線上排盤｜全台命理服務</title>
-<meta name="description" content="隨緣堂提供八字命理、紫微斗數、陽宅風水全台線上服務，附免費線上排盤系統。老師親自手寫批算，雙系統驗證，知命改運轉人生。">
+<title>抱朴隨緣堂｜八字命理・紫微斗數・陽宅風水・線上排盤｜全台命理服務</title>
+<meta name="description" content="抱朴隨緣堂提供八字命理、紫微斗數、陽宅風水全台線上服務，附免費線上排盤系統。老師親自手寫批算，雙系統驗證，知命改運轉人生。">
 <meta name="keywords" content="八字命理,紫微斗數,陽宅風水,線上排盤,八字免費排盤,紫微斗數排盤,擇日,流年運勢,命理師,台灣命理">
 <meta name="google-site-verification" content="ngY8u6ILiEMcPT8-kl-m09eBMqZ80eT75quARWt0iuo"/>
-<meta property="og:title" content="隨緣堂｜八字・紫微・風水・線上排盤"/>
+<meta property="og:title" content="抱朴隨緣堂｜八字・紫微・風水・線上排盤"/>
 <meta property="og:description" content="知命、改運、轉人生。老師親自手寫批算，全台線上服務。"/>
 <meta property="og:type" content="website"/>
 <link rel="canonical" href="https://suiyuantang.netlify.app/"/>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"隨緣堂","description":"專業八字命理、紫微斗數、陽宅風水全台線上服務","url":"https://suiyuantang.netlify.app","email":"jackkok1388@gmail.com","serviceType":["八字命理","紫微斗數","陽宅風水","感情合盤","流年運勢","擇日服務"],"areaServed":"台灣"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"抱朴隨緣堂","description":"專業八字命理、紫微斗數、陽宅風水全台線上服務","url":"https://suiyuantang.netlify.app","email":"jackkok1388@gmail.com","serviceType":["八字命理","紫微斗數","陽宅風水","感情合盤","流年運勢","擇日服務","命理教學"],"areaServed":"台灣"}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;600;700;900&family=Noto+Sans+TC:wght@300;400;500&family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
 <style>
@@ -184,6 +184,17 @@ nav{position:fixed;top:0;width:100%;z-index:9999;background:rgba(8,6,3,0.97);bac
 .cinc li::before{content:'✓';color:var(--gold);font-size:0.6rem;}
 .cprice{font-family:'Noto Serif TC',serif;font-size:1.4rem;font-weight:900;color:var(--paper);}
 .ccard.feat .cprice{color:var(--gold);}
+.course-price-panel{margin-top:34px;border:1px solid var(--border);background:var(--bg3);padding:30px;}
+.course-price-title{font-family:'Noto Serif TC',serif;font-size:1.25rem;color:var(--paper);font-weight:700;text-align:center;margin-bottom:8px;}
+.course-price-sub{text-align:center;font-size:.76rem;color:var(--pghost);margin-bottom:24px;}
+.course-price-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--border);}
+.course-price-col{background:var(--bg2);padding:24px;}
+.course-price-col h3{font-family:'Noto Serif TC',serif;font-size:1rem;color:var(--gold);margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid var(--border);}
+.course-price-row{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid var(--border);}
+.course-price-row:last-child{border-bottom:none;}
+.course-price-name{font-size:.8rem;color:var(--pdim);line-height:1.6;}
+.course-price-name span{display:block;font-size:.66rem;color:var(--pghost);}
+.course-price-amount{font-family:'Noto Serif TC',serif;font-size:.92rem;font-weight:700;color:var(--paper);white-space:nowrap;}
 .cpnote{font-size:0.6rem;color:var(--pghost);margin-top:3px;}
 
 /* ══ FORTUNE ══ */
@@ -495,6 +506,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:56px 40p
   .tgrid{grid-template-columns:1fr 1fr;}
   .flay{grid-template-columns:1fr;}
   .cgrid{grid-template-columns:1fr 1fr;}
+  .course-price-grid{grid-template-columns:1fr;}
   .ft-grid{grid-template-columns:repeat(2,1fr);}
   .clay{grid-template-columns:1fr;}
   .fin{grid-template-columns:1fr 1fr;}
@@ -533,9 +545,9 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:56px 40p
 <nav>
   <div class="ni">
     <a href="#" onclick="showPage('main');return false;" class="logo">
-      <span class="logo-g">隨<em>緣</em>堂</span>
+      <span class="logo-g">抱<em>朴</em></span>
       <span class="logo-s"></span>
-      <div><span class="logo-n">隨緣堂</span><span class="logo-e">SUIYUAN DESTINY HALL</span></div>
+      <div><span class="logo-n">抱朴隨緣堂</span><span class="logo-e">BAOPU SUIYUAN DESTINY HALL</span></div>
     </a>
     <ul class="nm">
       <li><a href="#services" onclick="showPage('main')">命理服務</a></li>
@@ -570,7 +582,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:56px 40p
   <div class="hero-in">
     <div>
       <div class="hbadge"><span class="hbdot"></span><span class="hbtxt">全台線上服務 · Since 2010</span></div>
-      <h1 class="hh1">隨緣堂<br><span>命理</span></h1>
+      <h1 class="hh1">抱朴隨緣堂<br><span>命理</span></h1>
       <p class="htag">知命・改運・轉人生</p>
       <p class="hdesc">融合八字子平、紫微斗數、陽宅風水三大傳統命理系統，老師<strong style="color:var(--gold)">親自手寫批算</strong>，雙系統交叉驗證。十五年服務逾千兩百位客戶，以準確、深度、溫度著稱。</p>
       <div class="hctas">
@@ -587,7 +599,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:56px 40p
       </div>
       <div class="hquote">
         <p class="hqtxt">「知命者不怨天，知己者不怨人。命理不是宿命，而是讓你看清局勢、選擇最有利的時機與方向。」</p>
-        <div class="hqauth">— 隨緣堂老師</div>
+        <div class="hqauth">— 抱朴隨緣堂老師</div>
       </div>
     </div>
   </div>
@@ -676,13 +688,13 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:56px 40p
         <div class="aport">
           <span class="aport-c">道</span>
           <div class="aport-s"><div class="aport-si"><span class="aport-sc">命</span></div></div>
-          <div class="aport-b">隨緣堂・老師親批</div>
+          <div class="aport-b">抱朴隨緣堂・老師親批</div>
         </div>
       </div>
       <div>
-        <h2 class="atit">關於<em>隨緣堂</em></h2>
-        <span class="aen">ABOUT SUIYUAN DESTINY HALL</span>
-        <p class="ap">隨緣堂創立於二○一○年，十五年來深耕八字子平、紫微斗數、陽宅風水三大傳統命理系統，累積逾千兩百位客戶的服務經驗。老師堅持每份命盤<strong style="color:var(--gold)">親自手寫批算</strong>，從不假手系統自動生成，這是隨緣堂與其他命理服務最根本的差異。</p>
+        <h2 class="atit">關於<em>抱朴隨緣堂</em></h2>
+        <span class="aen">ABOUT BAOPU SUIYUAN DESTINY HALL</span>
+        <p class="ap">抱朴隨緣堂創立於二○一○年，十五年來深耕八字子平、紫微斗數、陽宅風水三大傳統命理系統，累積逾千兩百位客戶的服務經驗。老師堅持每份命盤<strong style="color:var(--gold)">親自手寫批算</strong>，從不假手系統自動生成，這是抱朴隨緣堂與其他命理服務最根本的差異。</p>
         <p class="ap">老師深信命理不是宿命論，而是一把幫助人了解自己、掌握時機的鑰匙。以八字與紫微斗數雙系統交叉驗證，確保論斷的準確性。服務以準確、深度、溫度著稱，許多客戶在人生重要轉折前都會選擇回來諮詢。</p>
         <ul class="aquals">
           <li class="aqual">每份報告親自手寫批算，非系統自動生成</li>
@@ -801,6 +813,30 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:56px 40p
       <div class="ccard"><span class="cbadge">進階精修</span><div class="clevel">Advanced · 專業</div><div class="ctit">八字命理專業班</div><p class="cdesc">二十週進階課程，格局判斷、用神取法、流年大運實戰，每週一對一答疑，達到獨立批命水準。</p><ul class="cinc"><li>二十週課程（共40堂）</li><li>每週30分鐘一對一答疑</li><li>二十個案例解析</li><li>結業後支援三個月</li></ul><div class="cprice">NT$28,000</div><div class="cpnote">含結業認證 · 分期可議</div></div>
       <div class="ccard"><span class="cbadge">精英名額</span><div class="clevel">Master · 弟子班</div><div class="ctit">高階弟子培訓班</div><p class="cdesc">半年制精英培訓，八字＋紫微＋風水三系統整合，附命理師認證，協助建立個人命理事業。</p><ul class="cinc"><li>三系統整合半年培訓</li><li>每週一對一深度指導</li><li>命理師認證</li><li>資源對接・商業輔導</li></ul><div class="cprice">NT$68,000</div><div class="cpnote">每期限5名 · 面試審核</div></div>
     </div>
+    <div class="course-price-panel">
+      <h3 class="course-price-title">命理教學課程價目</h3>
+      <p class="course-price-sub">依程度循序學習，詳細開課日期與上課方式歡迎來信洽詢</p>
+      <div class="course-price-grid">
+        <div class="course-price-col">
+          <h3>紫微斗數</h3>
+          <div class="course-price-row"><div class="course-price-name">初階班<span>20 堂課</span></div><div class="course-price-amount">NT$45,000</div></div>
+          <div class="course-price-row"><div class="course-price-name">中階班<span>20 堂課</span></div><div class="course-price-amount">NT$60,000</div></div>
+          <div class="course-price-row"><div class="course-price-name">高階論斷班<span>20 堂課</span></div><div class="course-price-amount">NT$80,000</div></div>
+        </div>
+        <div class="course-price-col">
+          <h3>八字</h3>
+          <div class="course-price-row"><div class="course-price-name">初階班<span>20 堂課</span></div><div class="course-price-amount">NT$60,000</div></div>
+          <div class="course-price-row"><div class="course-price-name">中階班<span>20 堂課</span></div><div class="course-price-amount">NT$76,000</div></div>
+          <div class="course-price-row"><div class="course-price-name">高階論斷班<span>20 堂課</span></div><div class="course-price-amount">NT$88,000</div></div>
+        </div>
+        <div class="course-price-col">
+          <h3>風水堪輿</h3>
+          <div class="course-price-row"><div class="course-price-name">入門班<span>15 堂課</span></div><div class="course-price-amount">NT$45,000</div></div>
+          <div class="course-price-row"><div class="course-price-name">進階班<span>15 堂課</span></div><div class="course-price-amount">NT$70,000</div></div>
+          <div class="course-price-row"><div class="course-price-name">高階師資實戰論斷班<span>15 堂課</span></div><div class="course-price-amount">NT$98,000</div></div>
+        </div>
+      </div>
+    </div>
     <p style="text-align:center;margin-top:22px;font-size:0.78rem;color:var(--pghost);">課程不定期開班，歡迎來信 <a href="mailto:jackkok1388@gmail.com" style="color:var(--gold)">jackkok1388@gmail.com</a> 登記候補</p>
   </div>
 </section>
@@ -854,7 +890,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:56px 40p
                 <option value="感情婚姻合盤（NT$6,800起）">感情婚姻合盤（NT$6,800 起）</option>
                 <option value="流年運勢批算（NT$2,800起）">流年運勢批算（NT$2,800 起）</option>
                 <option value="擇日服務（NT$2,800起）">擇日服務（NT$2,800 起）</option>
-                <option value="課程諮詢（免費）">課程諮詢（免費）</option>
+                <option value="命理教學課程諮詢">命理教學課程諮詢（紫微・八字・風水堪輿）</option>
               </select>
             </div>
             <div class="fg"><label class="fl">主要想了解的問題 <span>*</span></label>
@@ -886,8 +922,8 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:56px 40p
 <footer>
   <div class="fin">
     <div>
-      <div class="flogon">隨<em>緣</em>堂</div>
-      <div class="flogos">SUIYUAN DESTINY HALL · 知命 改運 轉人生</div>
+      <div class="flogon">抱朴隨<em>緣</em>堂</div>
+      <div class="flogos">BAOPU SUIYUAN DESTINY HALL · 知命 改運 轉人生</div>
       <p class="fdesc">融合八字命理、紫微斗數、陽宅風水三大傳統命理系統，老師親自手寫批算，以準確與溫度著稱，服務全台逾千兩百位客戶。</p>
       <a href="mailto:jackkok1388@gmail.com" class="femail">✉ jackkok1388@gmail.com</a>
     </div>
@@ -915,7 +951,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:56px 40p
     <div>
       <div class="fct">快速連結</div>
       <ul class="flinks">
-        <li><a href="#about" onclick="showPage('main')">關於隨緣堂</a></li>
+        <li><a href="#about" onclick="showPage('main')">關於抱朴隨緣堂</a></li>
         <li><a href="#testimonials" onclick="showPage('main')">客戶見證</a></li>
         <li><a href="#contact" onclick="showPage('main')">立即預約</a></li>
         <li><a href="mailto:jackkok1388@gmail.com">聯絡我們</a></li>
@@ -923,7 +959,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:56px 40p
     </div>
   </div>
   <div class="fbottom">
-    <p class="fcopy">© 2025 隨緣堂 Suiyuan Destiny Hall · 版權所有 · 全台線上服務</p>
+    <p class="fcopy">© 2025 抱朴隨緣堂 Baopu Suiyuan Destiny Hall · 版權所有 · 全台線上服務</p>
     <p class="fcopy">八字命理 · 紫微斗數 · 陽宅風水 · 線上排盤 · 台灣</p>
   </div>
 </footer>
@@ -1119,7 +1155,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:56px 40p
     </div>
     <div class="loading" id="bz-loading"><div class="loading-c">命</div><div class="loading-t">正在排列八字命盤……</div></div>
     <div class="result-area" id="bz-result">
-      <div class="pp-hdr"><div><div class="pp-hdr-name" id="bz-rname">—</div><div class="pp-hdr-date" id="bz-rdate">—</div></div><div class="pp-hdr-badge">八字命盤・隨緣堂</div></div>
+      <div class="pp-hdr"><div><div class="pp-hdr-name" id="bz-rname">—</div><div class="pp-hdr-date" id="bz-rdate">—</div></div><div class="pp-hdr-badge">八字命盤・抱朴隨緣堂</div></div>
       <div class="bz-grid">
         <div class="bz-labels"><div class="bz-label">年柱</div><div class="bz-label">月柱</div><div class="bz-label">日柱（日主）</div><div class="bz-label">時柱</div></div>
         <div class="bz-chars" id="bz-pillars"></div>
@@ -1158,7 +1194,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:56px 40p
     </div>
     <div class="loading" id="zw-loading"><div class="loading-c">紫</div><div class="loading-t">正在排列紫微斗數命盤……</div></div>
     <div class="result-area" id="zw-result">
-      <div class="pp-hdr"><div><div class="pp-hdr-name" id="zw-rname">—</div><div class="pp-hdr-date" id="zw-rdate">—</div></div><div class="pp-hdr-badge">紫微斗數・隨緣堂</div></div>
+      <div class="pp-hdr"><div><div class="pp-hdr-name" id="zw-rname">—</div><div class="pp-hdr-date" id="zw-rdate">—</div></div><div class="pp-hdr-badge">紫微斗數・抱朴隨緣堂</div></div>
       <div class="zw-grid"><div style="margin-bottom:13px;font-size:0.7rem;color:var(--pghost);">以下顯示各宮位主星（部分宮位已鎖定，完整解析需預約）</div><div class="zw-palaces" id="zw-palaces"></div></div>
       <div class="lock">
         <span class="lock-i">紫</span>
@@ -1188,7 +1224,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:56px 40p
     </div>
     <div class="loading" id="zq-loading"><div class="loading-c">擇</div><div class="loading-t">正在篩選吉日……</div></div>
     <div class="result-area" id="zq-result">
-      <div class="pp-hdr"><div><div class="pp-hdr-name" id="zq-rname">—</div><div class="pp-hdr-date" id="zq-rdate">—</div></div><div class="pp-hdr-badge">擇日查詢・隨緣堂</div></div>
+      <div class="pp-hdr"><div><div class="pp-hdr-name" id="zq-rname">—</div><div class="pp-hdr-date" id="zq-rdate">—</div></div><div class="pp-hdr-badge">擇日查詢・抱朴隨緣堂</div></div>
       <div class="zq-wrap" id="zq-dates"></div>
       <div class="lock">
         <span class="lock-i">擇</span>
@@ -1295,8 +1331,8 @@ function submitF(){
   if(!e||!e.includes('@')){alert('請輸入正確的 Email 地址');return;}
   if(!s){alert('請選擇服務項目');return;}
   if(!q){alert('請選擇您最想了解的問題');return;}
-  const sub=encodeURIComponent(`【隨緣堂預約】${s} - ${n}`);
-  const body=encodeURIComponent(`姓名：${n}\nEmail：${e}\n服務項目：${s}\n主要問題：${q}\n\n補充說明：\n${m||'（無）'}\n\n---\n此信件由隨緣堂官網預約表單送出`);
+  const sub=encodeURIComponent(`【抱朴隨緣堂預約】${s} - ${n}`);
+  const body=encodeURIComponent(`姓名：${n}\nEmail：${e}\n服務項目：${s}\n主要問題：${q}\n\n補充說明：\n${m||'（無）'}\n\n---\n此信件由抱朴隨緣堂官網預約表單送出`);
   window.location.href=`mailto:jackkok1388@gmail.com?subject=${sub}&body=${body}`;
   document.getElementById('fEmail').textContent=e;
   document.getElementById('cForm').style.display='none';
